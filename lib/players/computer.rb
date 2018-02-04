@@ -46,7 +46,6 @@ module Players
       elsif board.cells[6] != self.token && board.cells[6] != " " && board.cells[7] != self.token && board.cells[7] != " " && board.valid_move?("9")
           puts "#{self.token} plays in space 9"
           "9"
-
       elsif board.cells[7] != self.token && board.cells[7] != " " && board.cells[8] != self.token && board.cells[8] != " " && board.valid_move?("7")
           puts "#{self.token} plays in space 7"
           "7"
