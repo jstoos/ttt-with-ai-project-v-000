@@ -50,8 +50,8 @@ module Players
           puts "#{self.token} plays in space 7"
           "7"
       elsif board.cells[6] != self.token && board.cells[6] != " " && board.cells[8] != self.token && board.cells[8] != " " && board.valid_move?("8")
-          puts "#{self.token} plays in space 7"
-          "7"
+          puts "#{self.token} plays in space 8"
+          "8"
       elsif board.cells[7] != self.token && board.cells[7] != " " && board.cells[8] != self.token && board.cells[8] != " "
           puts "#{self.token} plays in space 7"
           "7"
