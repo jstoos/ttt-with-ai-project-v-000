@@ -77,7 +77,6 @@ module Players
         elsif board.cells[2] != self.token && board.cells[2] != " " && board.cells[5] != self.token && board.cells[5] != " " && board.valid_move?("9")
             puts "#{self.token} plays in space 9"
             "9"
- +
         elsif board.cells[5] != self.token && board.cells[5] != " " && board.cells[8] != self.token && board.cells[8] != " " && board.valid_move?("3")
             puts "#{self.token} plays in space 3"
             "3"
@@ -85,13 +84,6 @@ module Players
             puts "#{self.token} plays in space 6"
             "6"
     #There are no defensive moves to make
- +
- +      elsif board.cells[5] != self.token && board.cells[5] != " " && board.cells[8] != self.token && board.cells[8] != " "
- +          puts "#{self.token} plays in space 3"
- +          "3"
- +      elsif board.cells[2] != self.token && board.cells[2] != " " && board.cells[8] != self.token && board.cells[8] != " "
- +          puts "#{self.token} plays in space 6"
- +          "6"
         elsif board.valid_move?("5")
             puts "#{self.token} plays in space 5"
            "5"
