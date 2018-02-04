@@ -21,8 +21,9 @@ module Players
           puts "#{self.token} plays in space 4"
             "4"
       elsif board.cells[3] != self.token && board.cells[3] != " " && board.cells[5] != self.token && board.cells[5] != " " && board.valid_move?("5")
-
-      if board.cells[0] != self.token && board.cells[0] != " " && board.cells[1] != self.token && board.cells[1] != " "
+        puts "#{self.token} plays in space 5"
+          "5"
+      elsif board.cells[0] != self.token && board.cells[0] != " " && board.cells[1] != self.token && board.cells[1] != " "
         puts "#{self.token} plays in space 3"
           "3"
       elsif board.cells[1] != self.token && board.cells[1] != " " && board.cells[2] != self.token && board.cells[2] != " "
