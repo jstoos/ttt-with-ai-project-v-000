@@ -47,24 +47,16 @@ module Players
         elsif board.cells[2] != self.token && board.cells[2] != " " && board.cells[4] != self.token && board.cells[4] != " " && board.valid_move?("7")
             puts "#{self.token} plays in space 7"
             "7"
- +
         elsif board.cells[4] != self.token && board.cells[4] != " " && board.cells[6] != self.token && board.cells[6] != " " && board.valid_move?("3")
             puts "#{self.token} plays in space 3"
             "3"
         elsif board.cells[2] != self.token && board.cells[2] != " " && board.cells[6] != self.token && board.cells[6] != " " && board.valid_move?("5")
- +
- +      elsif board.cells[4] != self.token && board.cells[4] != " " && board.cells[6] != self.token && board.cells[6] != " "
- +          puts "#{self.token} plays in space 3"
- +          "3"
- +      elsif board.cells[2] != self.token && board.cells[2] != " " && board.cells[6] != self.token && board.cells[6] != " "
- +
             puts "#{self.token} plays in space 5"
             "5"
         #Left column, prevent win
         elsif board.cells[0] != self.token && board.cells[0] != " " && board.cells[3] != self.token && board.cells[3] != " " && board.valid_move?("7")
             puts "#{self.token} plays in space 7"
             "7"
- +
         elsif board.cells[3] != self.token && board.cells[3] != " " && board.cells[6] != self.token && board.cells[6] != " " && board.valid_move?("1")
             puts "#{self.token} plays in space 1"
             "1"
