@@ -40,7 +40,6 @@ module Players
         puts "#{self.token} plays in space 4"
           "4"
       elsif board.cells[3] != self.token && board.cells[3] != " " && board.cells[5] != self.token && board.cells[5] != " "
-
           puts "#{self.token} plays in space 5"
           "5"
     #Bottom row, prevent win
